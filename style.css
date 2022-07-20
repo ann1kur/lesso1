@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #000;
+    border-color: #ECEEF0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+/*Container
+==========================================*/
+.container{
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    
+}
+
+
+
+/*Header
+==========================================*/
+.header{
+}
+
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid ;
+    padding: 35px 0;
+}
+
+
+
+.header__logo{
+    
+    font-size: 35px;
+   
+}
+
+
+/*Navigation
+==========================================*/
+
+.nav{
+    font-size: 24px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.nav__link{
+    margin-left: 175px;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.nav__link:hover{
+    text-decoration:underline;
+}
+.nav__link:first-child{
+    margin-left: 0;
+}
+
+/*Intro
+==========================================*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1280px;
+    background-blend-mode: multiply;
+    background-image: url(img/intro.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.9);
+}
+
+.intro__title{
+    font-size: 160px;
+    color: azure;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+
+.intro_subtitle{
+    font-size: 60px;
+    color: azure;
+    margin: 0;
+    text-align: center;
+}
+
+
+/*Button
+==========================================*/
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 60px, 120px;
+
+    font-size: 16px;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn--red{
+    background-color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
